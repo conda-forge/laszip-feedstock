@@ -15,14 +15,16 @@ Quickly turns bulky LAS files into compact LAZ files without information loss.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/laszip-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/laszip-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/laszip-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/laszip-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/laszip-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/laszip-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/laszip-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/laszip-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/laszip-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/laszip-feedstock)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/laszip/badges/version.svg)](https://anaconda.org/conda-forge/laszip)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/laszip/badges/downloads.svg)](https://anaconda.org/conda-forge/laszip)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-laszip-green.svg)](https://anaconda.org/conda-forge/laszip) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/laszip.svg)](https://anaconda.org/conda-forge/laszip) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/laszip.svg)](https://anaconda.org/conda-forge/laszip) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/laszip.svg)](https://anaconda.org/conda-forge/laszip) |
 
 Installing laszip
 =================
