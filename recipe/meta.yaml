@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1001
+  number: 1002
   skip: True  # [win and py!=36]
 
 requirements:
@@ -42,3 +42,4 @@ about:
 extra:
   recipe-maintainers:
     - chambbj
+    - hobu
