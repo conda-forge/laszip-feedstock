@@ -17,7 +17,7 @@ Current build status
 
 [![Linux](https://img.shields.io/circleci/project/github/conda-forge/laszip-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/laszip-feedstock)
 [![OSX](https://img.shields.io/travis/conda-forge/laszip-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/laszip-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/laszip-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/laszip-feedstock/branch/master)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
