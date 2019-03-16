@@ -1,6 +1,6 @@
 {% set name = "laszip" %}
-{% set version = "3.2.8" %}
-{% set sha256 = "1ea0671fb6f141094bace4b6ce231c194dcf2334e6a4e5d970fd0436a7c25729" %}
+{% set version = "3.3.0" %}
+{% set sha256 = "9b2b483126dbe15b0447e5d5ed3009985da1719699651ef4b19e85f408a969a6" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   skip: True  # [win and py!=36]
 
 requirements:
