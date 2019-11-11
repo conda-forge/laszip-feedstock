@@ -1,14 +1,14 @@
 {% set name = "laszip" %}
-{% set version = "3.4.1" %}
-{% set sha256 = "4b21e6cf1dced916c26f31cc5271fa461257cf2c96c81a2ce980f09ce4593cb4" %}
+{% set version = "3.4.3" %}
+{% set sha256 = "53f546a7f06fc969b38d1d71cceb1862b4fc2c4a0965191a0eee81a57c7b373d" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://github.com/{{ name }}/{{ name }}/archive/{{ version }}.tar.gz
+  fn: laszip-src-{{ version }}.tar.gz
+  url: https://github.com/{{ name }}/{{ name }}/releases/download/{{ version }}/laszip-src-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
